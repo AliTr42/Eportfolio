@@ -44,12 +44,12 @@ body {
     max-width: 100px; /* Ajustez la largeur maximale en fonction de vos besoins */
     height: auto; /* Pour conserver le rapport hauteur/largeur d'origine */
 }
-.col-lg-6 img {
-  width: 100%;
-  max-width: 200px; /* Adjust this value as needed */
-  height: auto;
-  display: block;
-  margin: 0 auto; /* Center the image */
+.smaller-image {
+    width: 100%;
+    max-width: 300px; /* Adjust this value as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
 }
 .navbar a {
     font-size: 18px;
