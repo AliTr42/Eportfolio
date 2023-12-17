@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
 </head>
+
 <body>
     <header class="header">
         <div class="logo">
-            <img src="../image/LOGO_HELHa.png" alt="Votre Logo" class="logo-image">
+            <img src="image/LOGO_HELHa.png" alt="Votre Logo" class="logo-image">
         </div>
         <nav class="navbar">
-            <a href="index.html">Home</a>
+            <a href="index.html" >Home</a>
             <a href="personal.html">About me</a>
             <div class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="education.html" id="educationDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Education 
+                <a class="nav-link dropdown-toggle" href="#" id="educationDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Education
                 </a>
                 <div class="dropdown-menu" aria-labelledby="educationDropdown">
-                    <a class="dropdown-item" href="Universitycollege.html"class="active">University College</a>
+                    <a class="dropdown-item" href="Universitycollege.html">University College</a>
                     <a class="dropdown-item" href="higherschool.html">Higher School</a>
                 </div>
             </div>
@@ -36,40 +42,58 @@
                     <a class="dropdown-item" href="project3.html">Project 3</a>
                 </div>
             </div>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html"class="active">Contact</a>
         </nav>
     </header>
     <hr class="divider">
-    <section class="home">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 home-content">
-                    <h1>University College</h1>
-                    <h3>University College of Louvain at Hainaut</h3>
-                    <p>I have already done two years at the University College of Louvain. I developed so much knowledge quickly during those two years. it was quite tough, the level gap between the higher school and the university college was enormous. And it was even more difficult for me because I had started from zero, I had no knowledge about computers science. 
-                        Despite the initial difficulties, I embraced the challenge, and my busy schedule pushed me to adapt quickly, helping not only academic development but also improving my problem-solving skills and critical thinking.
-                        </p>
-                </div>
-                <div class="col-lg-6 ">
-                    <img src="../image/helha.jpeg" alt="Votre image" class="img-fluide">
-                </div>
-            </div>
-        </div>
-    </section>
-  
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
- <!-- Vendor JS Files -->
+    <section id="contact" class="contact">
+        <div class="container">
+    
+          <div class="row mt-2">
+    
+            <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                <div class="info-box">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call Me</h3>
+                  <p>+0032495455248</p>
+                </div>
+              </div>
+
+            <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                <div class="info-box">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Send me a mail</h3>
+                  <p>dereliali2004@gmail.com</p>
+                </div>
+              </div>
+
+            <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+                <div class="info-box">
+                  <i class="bx bx-share-alt"></i>
+                  <h3>Social Profiles</h3>
+                  <div class="social-links">
+                      <a href="https://www.linkedin.com/in/ali-dereli-3a1a902a4/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                      <a href="https://github.com/AliTr42" class="github" target="_blank"><i class="bx bxl-github"></i></a>
+                      <a href="https://www.instagram.com/_ali_42tr?igshid=OGQ5ZDc2ODk2ZA==" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+    
+      </section>
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+  
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-</body>
 </html>
