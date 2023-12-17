@@ -51,6 +51,13 @@ body {
     display: block;
     margin: 0 auto; /* Center the image */
 }
+.col-lg-6 img {
+    width: 100%;
+    max-width: 300px; /* Adjust this value as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
 .navbar a {
     font-size: 18px;
     color: rgb(34, 25, 70);
